@@ -82,6 +82,7 @@ label {
     justify-content: center;
     align-items: center;
     padding: 0.5rem;
+    margin: 10px;
     font-size: 1.1rem;
     border: none;
 }
@@ -101,3 +102,32 @@ label {
 .footer-text {
     margin: 0,5rem;
 }
+
+/* Media Queries */
+
+@media only screen and (max-width: 500px) {
+
+    .title {
+    font-size: 1.5rem;
+    }
+
+    .subtitle {
+    font-size: 0.9rem;
+    }
+
+    input, select {
+        width : 100%;
+        border: none;
+    }
+
+    label {
+        font-size: 0.8rem;
+    }
+
+    .conditions {
+        font-size: 0.7rem;
+    }
+    .footer-text {
+        font-size: 0.8rem;
+    }
+    }

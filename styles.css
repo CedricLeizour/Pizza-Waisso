@@ -108,11 +108,11 @@ label {
 @media only screen and (max-width: 500px) {
 
     .title {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     }
 
     .subtitle {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     }
 
     input, select {

@@ -10,7 +10,7 @@ html, body {
 .pizza-container {
     background-image: url(assets/pizza.jpg);
     background-size: cover;
-    height: 80vh;
+    height: 60vh;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -48,18 +48,24 @@ html, body {
 
 }
 
-.input-control , .captcha {
-    margin : 0.7rem;
+.input-control {
+    margin: 0.7rem;
     width: 100%;
     display: block;
+    flex-direction: column;
 }
 
-.input-control.error {
+select {
+    width:50%;
+}
+
+.error {
     color: red;
-    font-size: px;
-    padding: 0.5rem;
+    font-size: 15px;
+    padding: 0.2rem;
     display: block
 }
+
 
 input {
     width : 50%;

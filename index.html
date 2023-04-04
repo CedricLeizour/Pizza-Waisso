@@ -4,9 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World !</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Newsletter Buitoni</title>
+    <!-- header -->
+    <div class="pizza-container">
+        <img src="assets/logo.png" alt="logo buitoni" class="logo">
+    </div>
+    <!-- form-container -->
+    <div id="form" class="form-container">
+        <h1 class="title">Inscription à la newsletter Buitoni</h1>
+        <!-- formulaire -->
+            <form action="" class="form" method="post">
+                <div class="subtitle">
+                    <h2>Inscrivez-vous</h2>
+                </div>
+            <div class="input-control">
+                <select class="input" name="civility" id="civility">
+                    <option value="">--Civilité--</option>
+                    <option value="Madame">Madame</option>
+                    <option value="Monsieur">Monsieur</option>
+                    <option value="Mademoiselle">Mademoiselle</option>
+                </select>
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <input type="text" name="username" id="username" placeholder="Nom">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <input type="text" name="firstname" id="firstname" placeholder="Prénom">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <input type="email" name="email" id="email" placeholder="Email">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label class="label" for="captcha">Saisissez le texte ci-dessous pour valider votre inscription</label><br>
+                <img src="assets/captcha.png"><br>
+                <input type="text" name="captcha" id="captcha">
+                <div class="error"></div>
+            </div>
+            <div class="conditions">
+                <p>Je souhaite recevoir des informations concernant les produits BUITONI et les autres produits du groupe Nestlé et j'autorise Nestlé Suisse
+                    SA à collecter et à traiter mes données. J'accepte <a href="#">l'avis concernant la protection des données.</a>
+                </p>
+            </div>
+            <button type="submit" class="button">S'inscrire</button>
+        </form>
+    </div>
+    <!-- pied de page -->
+    <div class="footer">
+        <p class="footer-text">©Nestlé | Protection des données | Conditions d'utilisations</p>
+    </div>
 </head>
 <body>
-    
+    <script src="index.js"></script>
 </body>
 </html>
